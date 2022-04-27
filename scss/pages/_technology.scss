@@ -1,0 +1,269 @@
+.technology-page{
+    color: #231F20;
+	background-color: #F6FEFF;
+
+	.language-dropdown{
+		.btn{
+			background-color: #F6FEFF !important;
+		}
+	}
+	
+	.bg{
+		background-image: url('../img/technology-page/nft-bg.png');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+
+	.clr-red{
+		color: #ED2124 !important;
+	}
+
+	.clr-orange{
+		color: #FA7D0F !important;
+	}
+
+	.clr-blue{
+		color: #00A8FF !important;
+	}
+
+
+	section{
+		position: relative;
+		.floating-icons{
+			position: absolute;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			img{
+				position: absolute;
+				@media screen and (max-width: 768px){
+					display: none;
+				}
+			}
+		}
+	}
+
+    .container{
+		position: relative;
+		z-index: 10;
+        @media (min-width: 1200px){
+            max-width: 1185px;
+        }
+        
+        p{
+            font-size: 16px;
+            line-height: 30px;
+            margin: 0;
+        }
+
+    }
+
+    .hero{
+		position: relative;
+        padding-top: 190px;
+		@media screen and (max-width: 768px){
+			padding: 115px 10px 0;
+		}
+
+		.floating-icons{
+			img{
+				&:nth-child(1){
+					top: 210px;
+					left: 80px;
+					-webkit-animation: rotation 8s infinite linear;
+    				animation: rotation 8s infinite linear;
+					@media screen and (max-width: 1450px){
+						left: 30px;
+					}
+				}
+				&:nth-child(2){
+					top: 230px;
+					right: 240px;
+					-webkit-animation: mover12 1s infinite alternate;
+    				animation: mover12 1s infinite alternate;
+					@media screen and (max-width: 1615px){
+						right: 100px;
+					}
+				}
+			}
+		}
+
+        h1{
+            color: #7765F8;
+            font-size: 40px;
+            line-height: 63px;
+            margin: 0 0 10px;
+            font-weight: bold;
+			@media screen and (max-width: 768px){
+				font-size: 25px;
+				line-height: 38px;
+				margin: 0 0 30px;
+			}
+        }
+    }
+
+
+    .features{
+        padding: 95px 0;
+		@media screen and (max-width: 768px){
+			padding: 40px 0 0;
+		}
+
+		.floating-icons{
+			img{
+				&:nth-child(1){
+					top: 0;
+					left: 10%;
+					-webkit-animation: mover1 1s infinite alternate;
+    				animation: mover1 1s infinite alternate;
+					@media screen and (max-width: 1450px){
+						left: 50px;
+					}
+				}
+				&:nth-child(2){
+					top: -20px;
+					right: 80px;
+					-webkit-animation: rotation 8s infinite linear;
+    				animation: rotation 8s infinite linear;
+					@media screen and (max-width: 1450px){
+						top: 10px;
+					}
+				}
+			}
+		}
+        
+        ._box{
+            text-align: center;
+			@media screen and (max-width: 768px){
+				& + ._box{
+					margin-top: 40px !important;
+				}
+			}
+
+            img{
+                margin: 0 0 38px;
+            }
+
+            h4{
+                color: #5EE7E2;
+                text-transform: uppercase;
+                margin: 0 0 15px;
+                font-size: 24px;
+                line-height: 35px;
+				letter-spacing: 0.48px;
+                font-weight: bold;
+				word-break: break-all;
+				&.f-sm{
+					font-size: 19px;
+					line-height: 30px;
+				}
+            }
+
+			p{
+				@media screen and (min-width: 768px){
+					max-width: 240px;
+					margin: 0 auto;
+				}
+			}
+
+        }
+
+    }
+
+
+    .mainnet-section{
+		padding: 50px 0 0;
+		@media screen and (max-width: 768px){
+			padding: 40px 0 0;
+		}
+
+		.floating-icons{
+			img{
+				&:nth-child(1){
+					top: 80px;
+					left: 10%;
+					-webkit-animation: rotation 8s infinite linear;
+    				animation: rotation 8s infinite linear;
+				}
+				&:nth-child(2){
+					top: 0;
+					right: 100px;
+					-webkit-animation: mover12 1s infinite alternate;
+    				animation: mover12 1s infinite alternate;
+					@media screen and (max-width: 1450px){
+						height: 100px;
+					}
+				}
+				&:nth-child(3){
+					top: 60%;
+					right: 120px;
+					-webkit-animation: rotation 8s infinite linear;
+    				animation: rotation 8s infinite linear;
+					@media screen and (max-width: 1615px){
+						height: 90px !important;
+					}
+				}
+			}
+		}
+		
+        .head{
+			text-align: center;
+
+            h2{
+				font-size: 42px;
+				font-weight: bold;
+				color: #36E165;
+				margin: 0 0 20px;
+				@media screen and (max-width: 1450px){
+					font-size: 24px;
+				}
+            }
+            p{
+				max-width: 705px;
+				margin: 0 auto;
+				@media screen and (min-width: 768px){
+					font-size: 18px;
+					line-height: 27px;
+				}
+            }
+        }
+
+        .body{
+			padding-top: 70px;
+
+            img{
+						
+				@media screen and (max-width: 768px){
+					max-width: 240px;
+				}
+            }
+
+            h3{
+				color: #F3004B;
+				font-size: 42px;
+				font-weight: bold;
+				line-height: 63px;
+				margin: 0 0 20px;
+				@media screen and (max-width: 1450px){
+					font-size: 24px;
+					line-height: 30px;
+				}
+            }
+
+        }
+    }
+
+	@media screen and (max-width: 768px){
+		#contact{
+			padding: 100px 0 0;
+
+			.ftr_copy{
+				padding: 25px 0 30px;
+			}
+		}
+	}
+
+
+}

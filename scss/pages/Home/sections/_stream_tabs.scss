@@ -1,0 +1,195 @@
+.stream_tabs {
+  padding: 0 0 30px;
+  position: relative;
+
+  #mytabs.nav-tabs {
+    border: none;
+  }
+
+  #mytabs.nav-tabs .nav-link.active {
+    color: #fff;
+    background-color: #f10000;
+  }
+
+  #mytabs.nav-tabs .nav-link {
+    border: none;
+    border-radius: 24px;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 10px 15px;
+    transition: 300ms !important;
+    min-height: 152px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #mytabs.nav-tabs li {
+    width: 30%;
+    margin-right: 5%;
+    text-align: center;
+    border: none;
+  }
+  #mytabs.nav-tabs li:last-child {
+    margin-right: 0;
+  }
+
+  #mytabs.nav-tabs li:nth-child(3) .nav-link {
+    background-color: #FEF3CC;
+    color: #DAD1B2;
+    border: none;
+  }
+
+  #mytabs.nav-tabs li:nth-child(3) .nav-link.active {
+    background-color: #FAC200;
+    color: #fff;
+  }
+
+  #mytabs.nav-tabs li:nth-child(2) .nav-link {
+    background-color: #FEF3CC;
+    color: #DAD1B2;
+    border: none;
+  }
+
+  #mytabs.nav-tabs li:nth-child(2) .nav-link.active {
+    background-color: #FAC200;
+    color: #fff;
+  }
+
+  #mytabs.nav-tabs li:nth-child(1) .nav-link {
+    background-color: #FEF3CC;
+    color: #DAD1B2;
+    border: none;
+  }
+
+  #mytabs.nav-tabs li:nth-child(1) .nav-link.active {
+    background-color: #FAC200;
+    color: #fff;
+  }
+
+  #mytab_content.tab-content {
+    text-align: center;
+    padding: 80px 13% 0;
+  }
+
+  #mytab_content.tab-content > .tab-pane .mytab_contentholder {
+  }
+
+  #mytab_content.tab-content > .tab-pane .mytab_contentholder p {
+    font-size: 16px;
+    color: #231f20;
+    margin-bottom: 60px;
+  }
+
+  #mytab_content.tab-content > .tab-pane .mytab_contentholder img {
+    width: 100%;
+  }
+
+  .mobtab_button {
+    color: #fff;
+    border: none;
+    border-radius: 24px;
+    font-size: 22px;
+    font-weight: 700;
+    padding: 30px 15px;
+    margin-bottom: 30px;
+    width: 100%;
+  }
+  #mobtab_button1 {
+    background: linear-gradient(
+279deg
+, #fc8d00 22%, #fc8d00 57%, #fac900 100%);
+  }
+  #mobtab_button2 {
+    background: linear-gradient(
+279deg
+, #fc8d00 22%, #fc8d00 57%, #fac900 100%);
+  }
+  #mobtab_button3 {
+    background: linear-gradient(
+279deg
+, #fc8d00 22%, #fc8d00 57%, #fac900 100%);
+  }
+
+  .streamtab_icons {
+    img {
+      position: absolute;
+      animation: mover11 1s infinite alternate;
+
+      @media screen and (max-width: 767px) {
+        display: none;
+      }
+
+      &:nth-child(1) {
+        top: 20%;
+        left: 2%;
+      }
+
+      &:nth-child(2) {
+        top: 20%;
+        right: 2%;
+      }
+
+      &:nth-child(3) {
+        bottom: 0;
+        left: 2%;
+        animation: rotation 8s infinite linear;
+      }
+
+      &:nth-child(4) {
+        bottom: 0;
+        right: 2%;
+        width: 120px;
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    .mytab_contentholder {
+      margin-bottom: 40px;
+    }
+    #mytab_content.tab-content {
+      padding: 0 0% 0;
+    }
+
+    .mytab_contentholder p {
+      margin-bottom: 40px;
+    }
+    #mytab_content.tab-content > .tab-pane .mytab_contentholder p br {
+      display: none;
+    }
+
+    #mytab_content.tab-content > .tab-pane .mytab_contentholder p {
+      font-size: 16px;
+      margin-bottom: 30px;
+    }
+    .mobtab_button {
+      font-size: 18px;
+      padding: 15px 15px;
+    width: auto;
+    
+    margin: auto;
+    margin-bottom: 15px;
+    }
+  }
+}
+
+// .position-imgs{
+
+//     img{
+
+//         &:nth-child(1){
+
+//         }
+
+//         &:nth-child(2){
+
+//         }
+
+//         &:nth-child(3){
+
+//         }
+
+//     }
+
+// }

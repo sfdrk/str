@@ -1,0 +1,170 @@
+.social-tk-link{
+  a{
+    font-size: 18px;
+    padding: 20px 30px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    border-radius: 24px;
+    height: 69px;
+    cursor: pointer;
+  }
+
+  i{
+    font-size: 30px;
+    margin-right: 10px;
+  }
+
+  img{
+    margin-right: 10px;
+    height: 30px;
+  }
+
+  .t-icon{
+    background-color: #37aee2;
+    box-shadow: 0 18px 42px #37aee24f;
+    &:hover{
+      color: #fff;
+    }
+  }
+
+  .k-icon{
+    background-color: #fde714;
+    color: black !important;
+    box-shadow: 0 18px 42px #fde71457;
+  }
+
+  &.social-tk-link-sm{
+    a{
+      font-size: 14px;
+      white-space: nowrap;
+      padding: 10px 18px;
+      height: auto;
+      border-radius: 13px;
+      cursor: pointer;
+    }
+    i{
+      font-size: 23px;
+    }
+    img{
+      height: 23px;
+    }
+  }
+
+  @media (max-width: 768px) {
+    a{
+      font-size: 16px;
+      height: 60px;
+      width: 100% !important;
+      padding: 15px 25px !important;
+      max-width: 244px !important;
+      margin: 0 auto;
+      display: flex;
+
+      i{
+        font-size: 26px !important;
+      }
+      img{
+        height: 26px !important;
+      }
+    }
+  }
+
+}
+
+#telegram_modal{
+  &.modal{
+    z-index: 99999;
+  }
+  .modal-dialog{
+    @media (min-width: 992px){
+      max-width: 900px;
+      margin: 5% auto;
+    }
+    .modal-content{
+      border-radius: 20px;
+      background: #f5f5f5;
+      .modal-body{
+        padding: 30px 40px;
+        @media (max-width: 992px){
+          padding: 30px 15px;
+        }
+        .cross_btn{
+          font-size: 42px;
+            color: #231F20;
+        }
+        .body-message{
+          padding: 30px 40px;
+          @media (max-width: 992px){
+            padding: 40px 15px;
+          }
+          h4{
+            font-size: 30px;
+            color: #231F20;
+            font-weight: 700;
+            text-align: center;
+            @media (max-width: 992px){
+              font-size: 26px;
+            }
+          }
+          ul{
+            padding: 0;
+            margin: 50px 0 0;
+            display: inline-block;
+            @media (max-width: 992px){
+              margin: 40px 0 0;
+            }
+            li{
+              width: 20%;
+              margin: 0 2.5%;
+              list-style: none;
+              float: left;
+              margin-bottom: 40px;
+              min-height: 45px;
+              cursor: pointer;
+              @media (max-width: 992px){
+                width: 40%;
+                margin: 0 5%;
+                margin-bottom: 40px;
+              }
+              a{
+                padding: 0;
+                height: inherit;
+                cursor: inherit;
+                border-radius: none;
+                width: auto;
+                @media (max-width: 992px){
+                  padding: 0 !important;
+                  justify-content: start;
+                }
+
+                img{
+                  width: auto;
+                  height: 35px;
+                }
+                h5{
+                  font-size: 16px;
+                  color: #231F20;
+                  margin: 0;
+                  text-align: left;
+                  font-weight: 400;
+                  @media (max-width: 992px){
+                    font-size: 14px;
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
+}
+
+.modal-backdrop.show{
+  opacity: 0.8;
+}
+
+

@@ -1,0 +1,63 @@
+.bannerifram_holder{
+    position: relative;
+
+    iframe {
+        border-radius: 10px;
+    }
+    span{
+        position: absolute;
+        top: 0;
+        left: 0;
+        border-radius: 10px;
+        height: 100%;
+        cursor: pointer;
+
+    }
+    span img{
+        width: 100%;
+        border-radius: 10px;
+        height: 100%;
+        object-fit: cover;
+    }
+
+    img.imgicon1{
+        position: absolute;
+        left: -18%;
+        top: 20%;
+        animation: mover12 1s infinite alternate;
+        width: 140px;
+    }
+    img.imgicon2{
+        position: absolute;
+        right: -22%;
+        top: 10%;
+        animation: rotation 8s infinite linear;
+        width: 110px;
+    }
+    img.imgicon3{
+        position: absolute;
+        right: -16%;
+        bottom: 10%;
+        animation: mover12 1s infinite alternate;
+        width: 110px;
+    }
+
+
+    @media (max-width: 768px) {
+        margin: 0 20px;
+
+        iframe {
+            height: 300px;
+        }
+        .imgicon1{
+            display: none;
+        }
+        .imgicon2{
+            display: none;
+        }
+        .imgicon3{
+            display: none;
+        }
+
+    }
+}

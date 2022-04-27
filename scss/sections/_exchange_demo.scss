@@ -1,0 +1,453 @@
+@mixin exchangeBoxShadow($color) {
+  box-shadow: 0 12px 24px $color;
+}
+
+.exchange_img {
+  position: relative;
+  width: 100%;
+  max-width: 1321px;
+  margin: 50px auto 0;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+
+  ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+  }
+
+  li{
+    margin: 0 12px;
+  }
+
+  // @media (min-width: 1199px) {
+  //   background-image: url('./../img/informationnetwork/exchange-bg-v2.png');
+  //   height: 450px;
+  //   img {
+  //     position: absolute;
+  //   }
+
+  // }
+
+  img {
+    border-radius: 20px;
+  }
+
+  .coinpaprika-logo-img{
+    right: -27px;
+    bottom: 96px;
+    @include exchangeBoxShadow(rgba(202, 49, 44, 0.3))
+  }
+
+  .bitcoinist-logo-img{
+    top: 199px;
+    right: -142px;
+    @include exchangeBoxShadow(rgba(36, 131, 255, 0.3))
+  }
+
+  .code-pedia-logo-img{
+    top: 103px;
+    right: -47px;
+    @include exchangeBoxShadow(rgba(3, 38, 91, 0.3))
+  }
+
+  .newsbtc-logo-img{
+    top: 103px;
+    left: 288px;
+    @include exchangeBoxShadow(rgba(2, 179, 192, 0.3))
+  }
+
+  .coinmarket-img{
+    @include exchangeBoxShadow(rgba(42, 103, 247, 0.3))
+  }
+
+  .ico-img{
+    @include exchangeBoxShadow(rgba(35, 181, 255, 0.3))
+  }
+  .listing-img{
+    @include exchangeBoxShadow(rgba(222, 152, 31, 0.3))
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .bitcoin-com-logo-img{
+    right: 124px;
+    top: 17px;
+    @include exchangeBoxShadow(rgba(10, 193, 142, 0.3))
+  }
+
+  .coindesk-logo-img{
+    right: 137px;
+    bottom: 4px;
+    @include exchangeBoxShadow(rgba(248, 191, 30, 0.3))
+  }
+
+  .utoday-logo-img{
+    top: 89px;
+    right: 306px;
+    @include exchangeBoxShadow(rgba(1, 83, 255, 0.3))
+  }
+
+  .yahoo-money-logo-img{
+    top: 150px;
+    right: 314px;
+    @include exchangeBoxShadow(rgba(96, 1, 210, 0.3))
+  }
+
+  .morningstar-logo-img{
+    top: 24px;
+    right: 396px;
+    @include exchangeBoxShadow(rgba(255, 0, 0, 0.3))
+  }
+
+  .benzinga-logo-img{
+    top: 182px;
+    @include exchangeBoxShadow(rgba(9, 52, 81, 0.3))
+  }
+
+  .coin360-logo-img{
+    top: 265px;
+    right: 397px;
+    @include exchangeBoxShadow(rgba(140, 191, 132, 0.3))
+  }
+
+  .blockonomi-logo-img{
+    bottom: -17px;
+    @include exchangeBoxShadow(rgba(89, 150, 231, 0.3))
+  }
+
+  .btc-manger-logo-img{
+    bottom: 9px;
+    left: 222px;
+    @include exchangeBoxShadow(rgba(249, 167, 73, 0.3))
+  }
+
+  .cointelegraph-logo-img{
+    bottom: -13px;
+    left: 405px;
+    @include exchangeBoxShadow(rgba(250, 191, 44, 0.3))
+  }
+
+  .coinmarkcap-logo-img{
+    left: 123px;
+    top: 165px;
+    @include exchangeBoxShadow(rgba(0, 0, 0, 0.3))
+  }
+
+  .zycrypto-logo-img{
+    top: 17px;
+    left: 451px;
+    @include exchangeBoxShadow(rgba(0, 136, 204, 0.3))
+  }
+
+  .marketwatch-logo-img{
+    top: 265px;
+    left: 495px;
+    @include exchangeBoxShadow(rgba(0, 172, 78, 0.3))
+  }
+
+  .the-news-crypto-logo-img{
+    bottom: 87px;
+    left: -21px;
+    @include exchangeBoxShadow(rgba(71, 194, 190, 0.3))
+  }
+
+  .yahoo-news-logo-img{
+    top: 180px;
+    left: 390px;
+    @include exchangeBoxShadow(rgba(70, 140, 202, 0.3))
+  }
+
+  .cryptoglobe-logo-img{
+    top: 200px;
+    left: -75px;
+    @include exchangeBoxShadow(rgba(3, 49, 108, 0.3))
+  }
+
+  .coingape-logo-img{
+    top: 86px;
+    left: -25px;
+    @include exchangeBoxShadow(rgba(16, 116, 183, 0.3))
+  }
+
+  .coingecko-logo-img{
+    right: 130px;
+    top: 184px;
+    @include exchangeBoxShadow(rgba(139, 197, 63, 0.3))
+  }
+
+  .yahoo-logo-img{
+    bottom: 154px;
+    left: 302px;
+    @include exchangeBoxShadow(rgba(96, 1, 210, 0.3))
+  }
+
+  .coinqoura-logo-img{
+    left: 165px;
+    top: 6px;
+    @include exchangeBoxShadow(rgba(255, 157, 0, 0.3))
+  }
+
+  @media (min-width: 1270px) and (max-width: 1535px) {
+    height: 385px;
+    max-width: 1120px;
+    img{
+      max-height: 45px;
+    }
+
+    .marketwatch-logo-img{
+      left: 400px;
+      top: 229px;
+    }
+
+    .benzinga-logo-img{
+      right: 333px;
+      top: 209px;
+    }
+
+    .yahoo-news-logo-img{
+      left: 359px;
+      top: 153px;
+    }
+
+    .coinmarkcap-logo-img{
+      left: 92px;
+      top: 147px;
+    }
+
+    .newsbtc-logo-img{
+      top: 87px;
+      left: 210px;
+    }
+
+    .yahoo-logo-img{
+      bottom: 137px;
+      left: 264px;
+    }
+
+    .utoday-logo-img{
+      top: 101px;
+      right: 201px;
+    }
+
+    .zycrypto-logo-img{
+      top: 0;
+      left: 399px;
+    }
+
+    .morningstar-logo-img{
+      top: 13px;
+      right: 323px;
+    }
+
+    .bitcoinist-logo-img{
+      top: 172px;
+      right: -72px;
+    }
+
+    .cointelegraph-logo-img{
+      bottom: -13px;
+      left: 287px;
+    }
+
+    .cryptoglobe-logo-img{
+      top: 173px;
+      left: -34px;
+    }
+
+    .btc-manger-logo-img{
+      bottom: 9px;
+      left: 129px;
+    }
+
+  }
+
+  @media (min-width: 1199px) and (max-width: 1270px) {
+    height: 284px;
+    max-width: 986px;
+  }
+
+  @media (max-width: 1270px) {
+
+    img{
+      max-height: 38px;
+    }
+
+
+    .morningstar-logo-img{
+      top: 1px;
+      right: 270px;
+    }
+
+    .cointelegraph-logo-img{
+      bottom: 16px;
+      left: 153px;
+    }
+
+    .utoday-logo-img{
+      top: 105px;
+      right: 344px;
+    }
+
+    .yahoo-news-logo-img{
+      left: 242px;
+    }
+
+    .coingecko-logo-img{
+      right: 214px;
+      top: 71px;
+    }
+
+    .bitcoinist-logo-img{
+      top: 184px;
+      right: 38px;
+    }
+
+    .yahoo-money-logo-img {
+      top: 131px;
+      right: 199px;
+    }
+
+    .coinpaprika-logo-img{
+      right: 39px;
+      bottom: 181px;
+    }
+
+    .code-pedia-logo-img{
+      top: 125px;
+      right: -8px;
+    }
+
+    .coinqoura-logo-img{
+      left: 213px;
+      top: 6px;
+    }
+
+    .newsbtc-logo-img{
+      top: 16px;
+      left: 69px;
+    }
+
+    .coinmarkcap-logo-img{
+      left: 129px;
+      top: 105px;
+    }
+
+    .cryptoglobe-logo-img{
+      top: 230px;
+      left: 13px;
+    }
+
+    .the-news-crypto-logo-img{
+      bottom: 79px;
+      left: 0;
+    }
+
+    .zycrypto-logo-img{
+      top: -9px;
+      left: 400px;
+    }
+
+    .coin360-logo-img{
+      top: 230px;
+      right: 482px;
+    }
+
+    .benzinga-logo-img{
+      top: 173px;
+      right: 393px;
+    }
+
+    .marketwatch-logo-img{
+      top: 185px;
+      left: 628px;
+    }
+
+    .utoday-logo-img{
+      top: 115px;
+      right: 402px;
+    }
+
+    .blockonomi-logo-img{
+      bottom: -34px;
+    }
+
+    .btc-manger-logo-img {
+      bottom: -30px;
+      left: 329px;
+    }
+
+  }
+
+  @media (max-width: 1199px) {
+    // background-image: url('./../img/informationnetwork/exchange-mb-bg.png');
+    ul{
+      margin: 0 -15px;
+      display: flex;
+      flex-wrap: wrap;
+      li{
+        width: calc(100% / 3);
+        text-align: center;
+        padding: 0 22px;
+        margin-bottom: 20px;
+
+        a{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          padding: 15px 5px;
+          background: white;
+          height: 100%;
+          width: 100%;
+          border-radius: 20px;
+          box-shadow: 0 2px 3px rgba(0, 0, 0 ,0.06);
+        }
+
+        img{
+          box-shadow: none !important;
+          max-width: 100%;
+          max-height: none;
+        }
+
+      }
+    }
+
+    @media (max-width: 768px) {
+    
+
+      margin-bottom: 40px !important;
+      ul {
+        li {
+          width: calc(100% / 2);
+          margin: 0 0px 22px 0;
+          a{
+            padding: 0;
+            box-shadow: none !important;
+            background: none !important;
+          }
+        }
+      }
+      
+    }
+
+  }
+
+
+
+}

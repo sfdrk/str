@@ -1,0 +1,32 @@
+[data-color="yellow"] {
+    color: #efb047;
+    stroke: #efb047 !important;
+  }
+  
+  [data-color="primary"] {
+    color: #2398fe;
+    stroke: #2398fe !important;
+  }
+  
+  [data-color="pink"] {
+    color: #fb3dc9;
+    stroke: #fb3dc9 !important;
+  }
+  
+  [data-color="success"] {
+    color: #51ff57;
+    stroke: #51ff57 !important;
+  }
+
+  
+  .row-lg-item-5 {
+    @media (min-width: 1200px) {
+      margin: 0 -12.5px !important;
+  
+      .col-6 {
+        padding: 0 12.5px !important;
+        flex: 0 0 calc(100% / 5) !important;
+        max-width: calc(100% / 5) !important;
+      }
+    }
+  }

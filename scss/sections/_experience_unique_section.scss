@@ -1,0 +1,260 @@
+.experience-unqiue-section {
+  text-align: center;
+  padding: 40px 0;
+
+  &#meitalk-btn{
+    padding-top: 140px;
+  }
+
+
+  .inner-wrapper {
+    background-image: url('./../img/eco_system/eco_meitalk.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 355px;
+    margin: 0 auto;
+    padding: 20px 65px;
+
+    @media (max-width: 1199px){
+          height: 290px;
+          padding: 16px 59px;
+      }
+    @media (max-width: 992px){
+          height: 216px;
+          padding: 13px 42px;
+      }  
+    @media (max-width: 768px){
+          height: 326px;
+          padding: 16px 76px 16px 65px;
+      }   
+    @media (max-width: 480px){
+          height: 248px;
+          padding: 12px 45px 12px 36px;
+      } 
+    @media (max-width: 390px){
+      height: 230px;
+      padding: 12px 45px 12px 36px;
+    }     
+
+    video {
+      width: 323px;
+      height: 203px;
+
+      @media (max-width: 1199px){
+        width: 323px;
+        height: 203px;
+      } 
+      @media (max-width: 992px){
+        width: 238px;
+    height: 148px;
+      } 
+      @media (max-width: 768px){
+        width: 368px;
+    height: 232px;
+      } 
+      @media (max-width: 480px){
+        width: 277px;
+        height: 176px;
+      } 
+      @media (max-width: 390px){
+        width: 262px;
+        height: 176px;
+      } 
+
+    }
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+  .meitalk_holder {
+    // box-shadow: 5px 5px 5px rgba(246, 248, 255, 1);
+    // box-shadow: 0px 1px 14px #c1bfbf;
+    // border-radius: 42px;
+    padding: 10px 2%;
+    @media screen and (max-width: 768px) {
+      padding: 0 0;
+
+    }
+  }
+
+  h3 {
+    font-size: 40px;
+    font-weight: 700;
+    margin: 0 0 15px;
+    line-height: 55px;
+    padding: 18px 25px;
+    text-align: center;
+    border-radius: 24px;
+    color: #fff;
+    size: 16px;
+    background: linear-gradient(279deg, #fc8d00 22%, #fc8d00 57%, #fac900 100%);
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+    margin-top: -58px;
+  }
+
+  p {
+    color: #231f20;
+    font-size: 16px;
+    margin: 0 0 45px;
+    line-height: 30px;
+  }
+
+  .like_icon {
+    left: -20%;
+  }
+
+  .platheart_icon {
+    left: -27%;
+  }
+
+  .tri_icon {
+    top: 15%;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0 4%;
+    h3 {
+      font-size: 19px;
+      line-height: inherit;
+      border-radius: 24px;
+      min-width: 244px;
+      padding: 17px 25px;
+      width: 300px;
+    }
+
+    .like_icon,
+    .platheart_icon,
+    .tri_icon {
+      display: none;
+    }
+  }
+
+  .gif-wrapper {
+    position: relative;
+
+    @media screen and (min-width: 992px) {
+      .mobile-mockup {
+        position: absolute;
+        top: 90px;
+        right: -26px;
+
+        .img-1 {
+          background-image: url("./../img/phone-mockup.png");
+          background-position: top;
+          background-repeat: no-repeat;
+          background-size: contain;
+          width: 220px;
+          height: 420px;
+          box-sizing: border-box;
+          overflow: hidden;
+          padding: 38px 15px 8px;
+
+          .img-2 {
+            background-image: url("./../img/phone-scroll.png");
+            background-position: top;
+            background-size: 100%;
+            width: 100%;
+            height: 100%;
+            animation: nikalOye 200s infinite;
+            animation-timing-function: linear;
+            border-radius: 0 0 22px 22px;
+            &:hover {
+              animation-play-state: paused;
+            }
+          }
+        }
+      }
+    }
+
+    .laptop-gif {
+      background-image: url("./../img/experience-laptop.png");
+      background-position: top;
+      background-repeat: no-repeat;
+      background-size: contain;
+      width: 100%;
+      max-width: 1083px;
+      height: 539px;
+      padding: 3.4% 14.5% 15% 12%;
+      box-sizing: border-box;
+
+      @media screen and (max-width: 3000px) {
+        height: 450px;
+      }
+
+      @media screen and (max-width: 2600px) {
+        height: 482px;
+      }
+
+      @media screen and (max-width: 2200px) {
+        height: 540px;
+      }
+
+      @media screen and (max-width: 1550px) {
+        padding: 3.4% 17.5% 14% 15%;
+      }
+
+      @media screen and (max-width: 1199px) {
+        height: 460px;
+      }
+
+      @media screen and (max-width: 992px) {
+        height: 480px;
+        margin-bottom: 40px;
+      }
+
+      @media screen and (max-width: 768px) {
+        width: 400px;
+        height: 260px;
+        margin: 0 auto 40px;
+        padding: 14px 59px 60px 49px;
+
+        div {
+          border-radius: 3px !important;
+        }
+      }
+
+      @media screen and (max-width: 450px) {
+        width: 350px;
+        height: 230px;
+        margin: 0 auto 40px;
+        padding: 13px 52px 57px 43px;
+      }
+
+      div {
+        background-image: url("./../img/experience-landing-page.jpg");
+        background-position: top;
+        background-size: 100%;
+        width: 100%;
+        height: 100%;
+        animation: nikalOye 250s infinite;
+        animation-timing-function: linear;
+        border-radius: 5px;
+        &:hover {
+          animation-play-state: paused;
+        }
+      }
+    }
+  }
+}
+
+@keyframes nikalOye {
+  from {
+    background-position: 0 0;
+  }
+  to {
+    background-position: 0 -10000px;
+  }
+}

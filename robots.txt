@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /*.js
+Allow: /*.css
+Allow: /*.jpg
+Allow: /*.png
+
+Disallow: 
+Disallow: /cgi-bin/
+Sitemap: https://stream-coin.com/sitemap.xml

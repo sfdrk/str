@@ -1,0 +1,88 @@
+.faq_sec {
+  padding: 0px 20% 0;
+
+    h2{
+      font-size: 42px;
+      font-weight: 700;
+      margin: 0 0 5px;
+      line-height: 63px;
+      text-align: center;
+    }
+
+  @media screen and (max-width: 768px) {
+    padding: 10px 15px 0;
+  }
+
+  #faq {
+    padding: 50px 0;
+    
+    .card {
+      margin-bottom: 15px;
+      border: 0;
+      .card-header {
+        -webkit-box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+        box-shadow: 0 0 20px 0 rgba(213, 213, 213, 0.5);
+        border-radius: 8px;
+        padding: 0 !important;
+        .btn-header-link {
+          font-size: 15px;
+          border-bottom-left-radius: 0px;
+          border-bottom-right-radius: 0px;
+          color: #fff;
+          display: block;
+          text-align: left;
+          background: #5a86ff;
+          color: #fff;
+          padding: 20px 50px 20px 20px;
+          &:after {
+            content: "\f068";
+            font-family: "Font Awesome 5 Free";
+            font-weight: 900;
+            float: right;
+            position: absolute;
+            top: 21px;
+            right: 25px;
+          }
+
+          @media screen and (max-width: 768px) {
+            padding: 15px 35px 15px 15px;
+            &:after {
+              top: 15px;
+              right: 16px;
+            }
+          }
+        }
+        .btn-header-link.collapsed {
+          font-size: 15px;
+          background: #fff;
+          color: #231f20;
+          border: 1px solid #5a86ff;
+          border-radius: 6px;
+          &:after {
+            content: "\f067";
+          }
+        }
+      }
+      .card-body {
+        color: #fff;
+        padding: 0 1.25rem 1.25rem;
+        font-size: 15px;
+
+      }
+      .collapsing {
+        background: #5a86ff;
+        line-height: 30px;
+      }
+      .collapse {
+        border: 0;
+      }
+      .collapse.show {
+        background: #5a86ff;
+        line-height: 30px;
+        border-bottom-left-radius: 6px;
+        border-bottom-right-radius: 6px;
+      }
+    }
+    
+  }
+}

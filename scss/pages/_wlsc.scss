@@ -1,0 +1,112 @@
+.wlsc_section {
+  .wlsc_head {
+    padding: 0 16%;
+    @media (max-width:768px) {
+        padding: 0 0;
+    }
+    h3 {
+      color: #7765f8;
+      font-size: 40px;
+      line-height: 63px;
+      margin: 0 0 40px;
+      font-weight: bold;
+      @media (max-width:768px) {
+        font-size: 26px;
+        line-height: inherit;
+        margin: 0 0 30px;
+    }
+    }
+    p {
+      font-size: 16px;
+      line-height: 30px;
+      margin: 0 0 40px;
+      @media (max-width:768px) {
+        margin: 0 0 30px;
+    }
+    }
+
+  }
+  .wlsc_view_btn {
+    background: transparent linear-gradient(103deg, #f70049 0%, #fc8900 100%) 0%
+      0% no-repeat padding-box;
+    -webkit-box-shadow: 0px 18px 42px #f940264d;
+    box-shadow: 0px 18px 42px #f940264d;
+    border-radius: 24px;
+    font-size: 18px;
+    padding: 20px 35px;
+    display: inline-block;
+    margin: 0 auto;
+    color: #fff;
+    margin: 45px 0px 0px 0px;
+    width: 200px;
+  }
+  img {
+      margin: 50px 0 0;
+
+      @media (max-width:768px) {
+        margin: 30px 0 0;
+      }
+
+  }
+  .wlsc_days{
+      padding: 100px 0 0;
+      @media (max-width:768px) {
+        padding: 50px 0 0;
+      }
+      h4{
+        color: #231F20;
+        font-size: 40px;
+        line-height: 63px;
+        margin: 0 0 35px;
+        font-weight: bold;
+        padding: 22px 40px;
+        background: #FFFFFF 0% 0% no-repeat padding-box;
+        box-shadow: 0px 12px 24px #E02A2A1A;
+        border-radius: 16px;
+        display: inline-block;
+        @media (max-width:768px) {
+            font-size: 25px;
+            line-height: 35px;
+          }
+      }
+      p{
+        font-size: 16px;
+        line-height: 30px;
+        margin: 0 0 40px;
+        padding: 0 16%;
+        @media (max-width:768px) {
+            padding: 0 0;
+          }
+      }
+      iframe{
+          margin-bottom: 100px;
+          border-radius: 16px;
+          @media (max-width:768px) {
+            height: 220px;
+            margin-bottom: 50px;
+          }
+      }
+
+  }
+  .wlsc_top100{
+      padding: 0;
+      h4{
+        color: #FF87DB;
+        font-size: 40px;
+        line-height: 63px;
+        margin: 0 0 60px;
+        font-weight: bold;
+        @media (max-width:768px) {
+            font-size: 28px;
+            line-height: 35px;
+          }
+      }
+      iframe{
+          border-radius: 16px;
+          @media (max-width:768px) {
+            height: 220px;
+            margin-bottom: 30px;
+          }
+      }
+  }
+}

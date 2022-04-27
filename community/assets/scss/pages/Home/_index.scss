@@ -1,0 +1,71 @@
+#meitalk-section {
+  .container{
+    padding: 0;
+  }
+    padding-bottom: 50px;
+    position: relative;
+    background-image: url("./../img/meitalk_bg.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  .card_holder {
+    width: 640px;
+    margin: 0 auto;
+    box-shadow: 0px 4px 7.36px 0.64px rgba(0,0,0,0.24),0px 1px 7.68px 0.32px rgba(0,0,0,0.16);
+    background: #fff;
+    @media (max-width: 767px) {
+      width: 100%;
+    }
+    img {
+      width: 100%;
+    }
+    .card_head {
+      background:#e91e63;
+      padding: 22px 15%;
+      min-height: 56px;
+      width: 100%;
+      @media (max-width: 767px) {
+        padding: 22px 5%;
+      }
+      h4 {
+        font-size: 25px;
+        color: #fff;
+        font-family: ProximaNova-Bold;
+      }
+      p {
+        font-size: 18px;
+        color:#fffefe;
+        font-family: ProximaNova-Regular;
+        opacity: 0.7;
+      }
+    }
+    a {
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      border-bottom: 1px rgba(0,0,0,0.12) solid;
+      padding: 15px 15%;
+      @media (max-width: 767px) {
+        padding: 15px 5%;
+      }
+      img {
+        width: auto;
+        height: 50px;
+        padding-right:15px ;
+      }
+      h5 {
+        font-size: 18px;
+        color: #000000;
+        font-family: ProximaNova-Bold;
+        margin: 0;
+        padding: 0;
+        line-height: 25px;
+        span {
+          font-size: 16px;
+          color: rgba(0, 0, 0, 0.54);
+          font-family: ProximaNova-Regular;
+        }
+      }
+    }
+  }
+}

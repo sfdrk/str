@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="50" height="50" viewBox="0 0 50 50">
+  <defs>
+    <linearGradient id="linear-gradient" x1="0.109" y1="0.032" x2="0.902" y2="0.964" gradientUnits="objectBoundingBox">
+      <stop offset="0" stop-color="#ffc694"/>
+      <stop offset="1" stop-color="#fa7d0f"/>
+    </linearGradient>
+  </defs>
+  <g id="Group_2075" data-name="Group 2075" transform="translate(0.104 0.104)">
+    <circle id="Ellipse_2762" data-name="Ellipse 2762" cx="25" cy="25" r="25" transform="translate(-0.104 -0.104)" fill="url(#linear-gradient)"/>
+    <g id="Group_2014" data-name="Group 2014" transform="translate(11.896 11.896)">
+      <path id="Path_1764" data-name="Path 1764" d="M26.74,0V26.74H0V0Z" fill="#c4c4c4" opacity="0.01"/>
+      <path id="Path_1758" data-name="Path 1758" d="M18.093,7.749a2.88,2.88,0,1,1,.212,0A.675.675,0,0,0,18.093,7.749Z" transform="translate(1.75 0.228)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_1759" data-name="Path 1759" d="M16.973,15a6.278,6.278,0,0,0,4.39-.8,2.129,2.129,0,0,0,0-3.81A6.317,6.317,0,0,0,16.94,9.6" transform="translate(1.934 1.084)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_1760" data-name="Path 1760" d="M6.466,7.749a2.88,2.88,0,1,0-.212,0A.675.675,0,0,1,6.466,7.749Z" transform="translate(0.397 0.228)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_1761" data-name="Path 1761" d="M7.57,15a6.278,6.278,0,0,1-4.39-.8,2.129,2.129,0,0,1,0-3.81A6.317,6.317,0,0,1,7.6,9.6" transform="translate(0.229 1.084)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_1762" data-name="Path 1762" d="M12.093,15.219a2.88,2.88,0,1,1,.212,0A.675.675,0,0,0,12.093,15.219Z" transform="translate(1.065 1.081)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+      <path id="Path_1763" data-name="Path 1763" d="M9.211,21.681a6.325,6.325,0,0,0,6.484,0,2.129,2.129,0,0,0,0-3.81,6.377,6.377,0,0,0-6.484,0A2.129,2.129,0,0,0,9.211,21.681Z" transform="translate(0.917 1.939)" fill="none" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="1.5"/>
+    </g>
+  </g>
+</svg>

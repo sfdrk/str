@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="65" height="65" viewBox="0 0 65 65">
+  <g id="Group_14282" data-name="Group 14282" transform="translate(0 -0.126)">
+    <g id="Group_14272" data-name="Group 14272" transform="translate(5.424 5.676)">
+      <path id="Path_28766" data-name="Path 28766" d="M22.572,15.995a1.642,1.642,0,0,0-.515,0,7.011,7.011,0,1,1,.515,0Z" transform="translate(20.817 -2)" fill="none" stroke="#194b98" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_28767" data-name="Path 28767" d="M17.021,22.9a15.282,15.282,0,0,0,10.686-1.953c3.824-2.549,3.824-6.726,0-9.276A15.379,15.379,0,0,0,16.94,9.744" transform="translate(23.574 10.841)" fill="none" stroke="#194b98" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_28768" data-name="Path 28768" d="M10.233,15.995a1.642,1.642,0,0,1,.515,0,7.011,7.011,0,1,0-.515,0Z" transform="translate(0.527 -2)" fill="none" stroke="#194b98" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_28769" data-name="Path 28769" d="M15.557,22.9A15.282,15.282,0,0,1,4.871,20.946c-3.824-2.549-3.824-6.726,0-9.276A15.379,15.379,0,0,1,15.638,9.744" transform="translate(-2.002 10.841)" fill="none" stroke="#194b98" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_28770" data-name="Path 28770" d="M16.572,23.465a1.642,1.642,0,0,0-.515,0,7.011,7.011,0,1,1,.515,0Z" transform="translate(10.544 10.79)" fill="none" stroke="#194b98" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+      <path id="Path_28771" data-name="Path 28771" d="M10.9,19.141c-3.824,2.549-3.824,6.726,0,9.276a15.4,15.4,0,0,0,15.785,0c3.824-2.549,3.824-6.726,0-9.276C22.373,16.266,15.24,16.266,10.9,19.141Z" transform="translate(8.322 23.657)" fill="none" stroke="#194b98" stroke-linecap="round" stroke-linejoin="round" stroke-width="4"/>
+    </g>
+    <rect id="Rectangle_3830" data-name="Rectangle 3830" width="65" height="65" transform="translate(0 0.126)" fill="none"/>
+  </g>
+</svg>
